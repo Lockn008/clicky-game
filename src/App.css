@@ -11,9 +11,6 @@
 
 .App-title {
   font-size: 3em;
-  text-align: left;
-  margin-left: 10%;
-  
 }
 
 .App-intro {
@@ -21,5 +18,28 @@
 }
 
 .Banner {
-  font-size: 3em;
+  font-size: 2em;
+}
+
+.Scoreboard {
+  font-size: 2em;
+}
+
+.instruction-bar {
+  background-color: gray;
+  height: 2.25em;
+}
+
+.instructions {
+  font-size: 1.5em;
+  color: white;
+}
+
+.game-container {
+  max-width: 1000px;
+  
+}
+
+.game-img {
+  margin:5px;
 }

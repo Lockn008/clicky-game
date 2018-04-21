@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from "react";
 
-const Banner = () => (
-	<span className="Banner">"Correct!"</span>
-)
-
-export default Banner;
+export default class Banner extends Component {
+	render() {
+		return(
+			<span className="col Banner">Correct!</span>
+		)
+	}
+}
